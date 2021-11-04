@@ -1,0 +1,44 @@
+body {
+  background-color: #eeeeee;
+}
+
+nav {
+  color: white;
+  background-color: beige;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  background-color: peru;
+  padding: 30px;
+}
+
+footer {
+  margin-right: 10px;
+}
+
+image {
+  width: 200px;
+  height: 200px;
+}
+footer {
+  margin-right: 3px;
+  font-size: bold;
+}
+footer a {
+  width: 300px;
+  transition-property: all 1s;
+}
+
+footer a:hover {
+  background-color: tan;
+}
